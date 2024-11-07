@@ -5,10 +5,22 @@
 
 // Vanilla JavaScript Function
 
+function addtwoNumbers1( a, b) {
+    return a+b;
+}
+
+let sum=addtwoNumbers1(3,5);
+console.log(sum);
 // Arrow Function With Parameters
+const addtwoNumbers2 = ( a, b) => {
+    return a+b;
+}
+
+sum=addtwoNumbers2(6,7);
+console.log(sum);
 
 // Single Line Arrow Function With Parameters
-
+const addtwoNumbers3 = ( a, b) => a+b;
 // Implicit Returns
-
+sum=addtwoNumbers3(10,21); console.log(sum);
 // Returning Multiple Lines
